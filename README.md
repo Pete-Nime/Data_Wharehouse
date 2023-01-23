@@ -1,15 +1,15 @@
-## Data_Wharehouse
+# Data_Wharehouse
 
-## Table of Content
+# Table of Content
 
-# Project Datasets
+### Project Datasets
 Datasets that reside in S3. Here are the S3 links for each that woudl be work with:
 
 Song data: s3://udacity-dend/song_data
 Log data: s3://udacity-dend/log_data
 Log data json path: s3://udacity-dend/log_json_path.json
 
-# Song Dataset
+### Song Dataset
 The first dataset is a subset of real data from the Million Song Dataset. Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are file paths to two files in this dataset.
 
 song_data/A/B/C/TRABCEI128F424C983.json
@@ -30,12 +30,12 @@ log_data/2018/11/2018-11-13-events.json
 As a data engineer, the task is to build an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights into what songs their users are listening to. Will be able to test the database and ETL pipeline by running queries given to by the analytics team from Sparkify and compare the results with their expected results.
 building an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights into what songs their users are listening to
 
-## Executive Summmary
+# Executive Summmary
 
 A music streaming startup, Sparkify, has grown their user base and song database and want to move their processes and data onto the cloud. The data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app. The task is to build an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights into what songs their users are listening to.
 
 
-## Create Table Schemas
+# Create Table Schemas
 
 - Designing of schemas for fact and dimension tables
 - Writing of  SQL CREATE statement for each of these tables in sql_queries.py
@@ -44,7 +44,7 @@ A music streaming startup, Sparkify, has grown their user base and song database
 - Launch the redshift cluster and createing of an IAM role that has read access to S3.
 - Adding of redshift database and IAM role info to dwh.cfg.
 
-## Testing of AWS Redshift
+# Testing of AWS Redshift
 
 - Testing by running create_tables.py and checking the table schemas in the redshift database. Useing of Query Editor in the AWS Redshift console for this.
 Build ETL Pipeline
