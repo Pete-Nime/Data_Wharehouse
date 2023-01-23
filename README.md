@@ -44,7 +44,7 @@ A music streaming startup, Sparkify, has grown their user base and song database
 - Launch the redshift cluster and createing of an IAM role that has read access to S3.
 - Adding of redshift database and IAM role info to dwh.cfg.
 
-# Testing of Schema AWS Redshift
+# Testing of Schema in AWS Redshift
 
 - Testing by running create_tables.py and checking the table schemas in the redshift database. Using of Query Editor in the AWS Redshift console for this.
 
