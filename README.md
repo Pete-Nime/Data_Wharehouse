@@ -46,10 +46,10 @@ A music streaming startup, Sparkify, has grown their user base and song database
 
 # Testing of AWS Redshift
 
-- Testing by running create_tables.py and checking the table schemas in the redshift database. Useing of Query Editor in the AWS Redshift console for this.
-Build ETL Pipeline
+- Testing by running create_tables.py and checking the table schemas in the redshift database. Using of Query Editor in the AWS Redshift console for this.
+
 - Implementing of the logic in etl.py to load data from S3 to staging tables on Redshift.
-- Implementing the logic in etl.py and load data from staging tables to analytics tables on Redshift.
+- Implementing the logic in etl.py and loading of data from staging tables to analytics tables on Redshift.
 - Testing by running etl.py after running create_tables.py and running the analytic queries on  Redshift database and compare the results with the expected results.
 -Delete your redshift cluster when finished due unwanted accumulating of cost.
 
