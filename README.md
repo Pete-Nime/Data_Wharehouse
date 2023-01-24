@@ -25,7 +25,7 @@ The log files in the dataset will be working with are partitioned by year and mo
 log_data/2018/11/2018-11-12-events.json
 log_data/2018/11/2018-11-13-events.json
 
-## Introduction
+# Introduction
 
 As a data engineer, the task is to build an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights into what songs their users are listening to. Will be able to test the database and ETL pipeline by running queries given to by the analytics team from Sparkify and compare the results with their expected results.
 building an ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team to continue finding insights into what songs their users are listening to
